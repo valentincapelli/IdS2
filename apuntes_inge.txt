@@ -50,3 +50,119 @@ Planificacion
 2_ Con que recursos
 3_ Y en que orden
 
+Apuntes clase 28/03
+
+*PGP Plan de Gestion de Proyecto
+
+Gestion de Riesgos
+Un riesgo son eventos que generan una consecuencia negativa.
+Los gerentes deben tratar de evitar riesgos, y prevenirlos.
+
+Gestion de riesgos en el desarrollo de software:
+
+
+Apuntes clase 11/04
+
+Gestion del proyecto
+
+Planificacion temporal
+Distribuir el esfuerzo estimado a lo largo de lo que dure el proyecto.
+
+Calendarizacion del proyecto
+Dos tipos de fechas:
+    Fecha limite del cliente
+    Fecha limite del desarrollador
+La fecha limite dle cliente es la mas vista
+
+La planificacion temporal esta compuesta por:
+    Tareas
+    Tareas criticas
+    Hitos
+
+Una tarea de describe de 4 parametros:
+    Precursor (algo que tiene que ocurrir antes de realizar la tarea)
+    Duracion
+    Fecha de entrega
+    Resultado
+
+Red de Tareas
+Representacion rafica del flujo de las Tareas
+
+Metodo de planificacion temportal GANTT (como el de ISO con los procesos)
+Componentes:
+    Linea de tiempo
+    Tareas y subtareas
+    Duracion y fechas
+    Dependencias
+    Hitos
+    Responsabilidades
+
+El hito es un rombo en el grafico.
+
+PERT y CPM 
+
+PERT: es una herramienta de gestion de proyectos utilizada para analizar las estimaciones
+de tareas en un cronograma y evaluar las opciones de la ruta critica.
+Para controlar la ejecucion de protectos con gran numero de actividades que implican 
+investigacion, desarrollo, etc.
+Metodo PROBABILISTICO.
+
+CPM: es un metodo de gestion de proyectos que identifica la secuencia de actividades que
+determinan ...
+Se utilizan en proyectos...
+Metodo DETERMINISTICO.
+
+Actualmente se toma lo mejor de ambos, se le llama Metodo de Camino Critico.
+1_ Establecer lista de tareas
+2_ Fijar dependencia entre tareas
+3_ Construir la Red
+4_ Numerar los nodos
+5_ Calcular la fecha temprana y tardia de cada nodos
+    Tei: fecha temprana del nodo i 
+    Tai: fecha tardia del nodo i 
+6_ Calcular el camino critico que une las tareas criticas
+    ==> Tei = Tai
+
+Que hacer cuando una tarea se sale de la agenda?
+
+Revisar el impacto sobre la fecha de entrega
+Reasignar recursos
+    La inclusion de mas personas no siempre aumenta la productividad.
+Reordenar tareas
+Modificar fecha de entrega
+
+Etapa de diseño en los modelos de desarrollo de software
+Que es el diseño de software?
+Tipos de diseño:
+    Diseño de datos
+    Diseño arquitectonico
+    Diseño de interface
+    Diseño a nivel componentes
+
+Caracteristicas para su evaluacion
+    Debera implementar los requerimientos explicitos del modelo de requerimientos,
+    e incorporar rodos los requerimientos implicitos que desea el cliente.
+    Debera ser una guia ligible y comprensible para aquellos que generan codigo
+    y para aquellos que dan soporte al software.
+    Debera proporcionar una imagen completa del software.
+
+Conceptos de diseño
+    Abstraccion: permite concentrarse en un problema a un nivel de generalizacion
+    sin tener en cuenta los detalles de bajo nivel.
+    Arquietectura del software: es la estructura general del SW y las formas en que la
+    estructura proporciona...
+    Patrones: describe una estructura de diseño que resuelve un problema particular
+    dentro de un contexto en especifico.
+    Modularidad: el sw se divide en componentes nombrados y abordados por separado,
+    llamados modulos, que se integran para satisfacer los requisitos del problema.
+    Ocultamiento de informacion: la informacion que esta dentro de un modulo es
+    inaccesible a otros que no la necesiten.
+    Independencia funcional: modularidad + abstraccion + ocultamiento de informacion,
+    se busca alta cohesion (que sea coherente) y bajo acomplamiento entre los modulos.
+    Refinamiento: se refina de manera sucesiva. La abstraccion y el refinamiento son
+    complementarios. Ayuda a revelar los detalles de grado menor mientras se realiza el
+    diseño.
+    Refabricacion o refactoring: busca reorganizar el diseño sin modificar el
+    comportamiento.
+
+    
