@@ -1,0 +1,77 @@
+Administrador
+Visualizar estadisticas
+Agregar autos
+Agregar empleados
+Agregar sucursales
+Actualizar informacion de los autos
+Actualizar informacion de las empleados
+Actualizar informacion de las sucursales
+
+
+Empleado
+Registrar entrega de vehiculo
+Alquilar un auto en el local
+Registrar un usuario en el local
+Registrar devolucion
+Registrar mantenimiento de un auto
+Actualizar estado del auto
+Registrar alquiler
+
+
+Cliente
+Seleccionar auto
+Realizar reserva
+Realizar pago
+Cancelar reserva
+cambiar contrasenia
+
+Usuario no registrado
+Registrarse, iniciar sesion, buscar producto filtrando.
+
+Funcionalidad general de la pagina
+Filtrado del auto en catalogo (ya sea por fecha, por marca, por segmento)
+Registro
+Inicio de sesión
+
+Gestion de alquileres:
+	- Registrar alquiler (de parte del empleado)	
+	- Registrar devolucion.
+	- Realizar reserva (online).
+	- Cancelar reserva.
+    - Registrar conductor.
+    - Modificar conductor (de parte del cliente).
+    - Notificar cambio de vehiculo al cliente.
+
+Manejo de usuarios:
+	- Registrar empleados. 
+	- Registrar cliente en local.
+	- Registrar cliente on-line.
+	- Cambiar contrasenia.
+	- Iniciar sesión.
+	- Cerrar sesión.
+
+Gestión de vehículos:
+	- Agregar autos.
+	- Actualizar informacion de los autos.
+	- Registrar mantenimiento de un auto.
+	- Actualizar estado del auto.
+	- Filtrar listado de vehículos en el catalogo. ???
+
+Gestión de pagos y garantias:
+	- Registrar pagos.
+	- Retener monto por retraso.
+    - Devolver monto retenido.
+	- Penalización al cliente ante un alquiler moroso.
+
+Gestion de información del administrador:
+	- Agregar sucursales.
+	- Actualizar informacion de las sucursales.
+	- Actualizar informacion de las empleados.
+
+Visualizar estadísticas:
+    - Ver cuanto se genero entre fechas.
+    - Listar reservas / alquileres.
+    - Estadisticas con graficos de tortas.  ?????
+    - Mapa interactivo con las distintas sucursales.  ????
+    - Visualizar datos por sucursal. ????
+    * Consultar mas estadisticas
