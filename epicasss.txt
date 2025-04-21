@@ -7,7 +7,12 @@ Actualizar informacion de los autos
 Actualizar informacion de las empleados
 Actualizar informacion de las sucursales
 Listar empleados
+Listar autos
+Listar sucursales
 Borrar empleados
+Borrar autos
+Borrar sucursales
+Editar perfil
 
 Empleado
 Registrar entrega de vehiculo
@@ -17,17 +22,20 @@ Registrar devolucion
 Registrar mantenimiento de un auto
 Actualizar estado del auto
 Registrar alquiler
-
+Editar perfil
 
 Cliente
 Seleccionar auto
 Realizar reserva
 Realizar pago
 Cancelar reserva
-cambiar contrasenia
+Cambiar contrasenia
+Cambiar conductor
+Editar perfil
+Ver sucursales
 
 Usuario no registrado
-Registrarse, iniciar sesion, buscar producto filtrando.
+Registrarse, iniciar sesion, buscar producto filtrando, ver sucursales.
 
 Funcionalidad general de la pagina
 Filtrado del auto en catalogo (ya sea por fecha, por marca, por segmento)
