@@ -1,0 +1,51 @@
+Roles
+
+Administrador
+Visualizar estadisticas
+Agregar autos
+Agregar empleados
+Agregar sucursales
+Actualizar informacion de los autos
+Actualizar informacion de las empleados
+Actualizar informacion de las sucursales
+
+Empleado
+Registrar entrega de vehiculo
+Alquilar un auto en el local
+Registrar un usuario en el local
+Registrar devolucion
+Registrar mantenimiento de un auto
+Actualizar estado del auto
+
+Cliente
+Seleccionar auto
+Realizar reserva
+Cancelar reserva
+Realizar pago
+
+Funcionalidad general de la pagina
+Filtrado del auto en catalogo (ya sea por fecha, por marca, por segmento)
+Registro
+Inicio de sesion
+EDITAR PERFIL HU de cliente
+
+
+tener una seccion para ver los alquileres actuales de un cliente
+Pregunta 12: ¿Como es el manejo de cancelaciones?
+Si un cliente cancela la reserva, depende del vehículo que haya alquilado si hay reembolso o no del dinero. Es una política específica para cada vehículo. Un vehículo puede q
+ue no tenga reembolso, tener un 20% de reembolso. o que tenga un reembolso total. Al igual que el precio, esto es cargado por la administradora.
+como minimo 1 dia de antelacion
+
+utilizar un framework para hacer el proyecto.
+usar Python o JavaScript
+las historias de usuarios las generamos de las entrevistas.
+
+avanzar con los documentos para hacer consulta el prox lunes.
+
+Consultar:
+    Consultar las historias de usuario.
+    Consultar el SRS.
+    Consultar algo del PGP, como hacerlo.
+    Que lenguaje usar para hacer el proyecto.
+
+Usar FLASK con python
